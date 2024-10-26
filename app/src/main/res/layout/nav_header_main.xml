@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="?attr/colorPrimary"
+    android:padding="16dp">
+
+    <!-- Ảnh đại diện -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_user_avatar"
+        android:scaleType="centerCrop"
+        android:contentDescription="User Avatar" />
+
+    <!-- Tên người dùng -->
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duchai"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:paddingTop="8dp"
+        android:textStyle="bold" />
+</LinearLayout>
